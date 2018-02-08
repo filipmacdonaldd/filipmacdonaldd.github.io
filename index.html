@@ -1,48 +1,97 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    
+
 <style>
-body {
-    background-color: orange;
+* {
+    box-sizing: border-box;
 }
- body {
-  background-image: url("https://img00.deviantart.net/5a9b/i/2013/132/8/d/tesla_motors_by_lord_iluvatar-d650b2c.jpg");
-      } 
-    
-  h1 {
-    color: white;
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: ##333;
+    padding: 20px;
     text-align: center;
 }
-p {
-    color: white;
-    font-family: verdana;
-    font-size: 20px;
-    }
-       
- li {
-   color:white;
-}
-    
-  h2 {
-    color:white;
- }
-    
-    
- <h2>Why Emus are cool</h2>
-   
- <ul>
-     
-   <li>Emu is the second largest bird on the planet</li>
-   <li>Emu can survive between 5 and 10 years in the wild</li>
-   <li>They feed on flowers, berries, grains, insects soft shoots and grubs</li>
 
- </ul>   
-    
-   
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: ##111;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: 	#4CAF50;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:	#4CAF50; ;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>elon musk</h1>
+  <p>and the space car</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.bbcgoodfood.com/recipes/collection/kids-cooking">Quick recipes</a>
+  <a href="http://www.delish.com/content/dessert-recipes/">Desserts</a>
+  <a href="http://www.countryliving.com/food-drinks/g680/chicken-recipes-0109/">Chicken dishes</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Tesla</h2>
+    <p>1(("</p>
+  </div>
+  <div class="column">
+    <h2>Column</h2>
+    <p>cool</p>
+  </div>
+  <div class="column">
+    <h2>Column</h2>
+    <p>aii</p>
+  </div>
+</div>
+
 </body>
-    
-    
+</html>
+
